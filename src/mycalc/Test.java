@@ -16,6 +16,8 @@ public class Test {
 		op = object.readLine();
 		b = Float.parseFloat(object.readLine());
 
+		//CPA: сделайте так, чтобы можно было использовать я калькуялторе обычные знаки +-,/ 
+		// без использования if и switch
 		Operation Y = (Operation) Class.forName("mycalc." + op).newInstance();
 
 		System.out.println(Y.count(a, b));
