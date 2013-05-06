@@ -1,5 +1,6 @@
 package mycalc;
 
+//CPA: а почему не абстрактный класс или интерфейс?
 public class Operation {
 
 	public Operation() {
