@@ -1,14 +1,8 @@
 package mycalc;
 
-//CPA: а почему не абстрактный класс или интерфейс?
-public class Operation {
+//CPA: а почему не абстрактный класс или интерфейсa?
+abstract class Operation {
 
-	public Operation() {
-	}
-
-	public float count(float a,float b) {
-		return a;
-	}
-
+	abstract public float count(float a, float b);
 
 }
